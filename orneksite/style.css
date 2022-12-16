@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+body{
+    background-color: gray;
+    color: white;
+}
+
+.header{
+    text-align: center;
+}
+.header h1{
+    display: inline;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 12px;
+    
+}
+.header h2{
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 8px;
+}
+.header hr{
+   position: absolute;
+   background-color: white;
+ height: 1px;
+    width: 300px;
+    top: 50px;
+    left: 100px;
+   
+}
+.header .hr2{
+    position: absolute;
+    background-color: white;
+    height: 1px;
+     width: 300px;
+     right: -900px;
+     top: 50px;
+    
+}
+.navbar{
+    text-align: center;
+}
+.navbar ul li{
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+    list-style: none;
+    display: inline;
+    padding: 12px;
+    font-size: 20px;
+    margin: 12px;
+}
+.navbar ul li:hover{
+    background-color: aqua;
+    color: gray;
+}
+.kopek {
+    text-align: center;
+}
+.kopek img{
+    margin-top: 30px;
+}
+.container{
+    margin-left: 280px;
+    display: grid;
+    grid-template-columns: 320px 620px;
+    grid-template-rows: 770px ;
+    
+}
+.container .sol{
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:rgb(242, 241, 241);
+    
+}
+.container .sag{
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+ background-color: white;
+}
+.container .sol input{
+    margin-left: 30px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    
+    
+    width: 220px;
+}
+.container .sol .search{
+    margin-left: -30px;
+    cursor: pointer;
+}
+.container .sol .birincibaslik{
+   margin-left: 30px;
+    color: black;
+}
+.container ul li {
+    color: green;
+    list-style: none;
+    padding: 7px;
+    margin-left: 0px;
+}
+.container .ikincibaslik{
+    margin-left: -10px;
+    color: black;
+}
+.container hr {
+    margin-right: 30px;
+}
+.container .sag h2{
+    margin-left: 10px;
+    color: black;
+}
+.container .sag p{
+    width: 90%;
+    color: gray;
+    margin-left: 15px;
+}
